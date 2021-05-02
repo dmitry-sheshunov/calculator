@@ -1,0 +1,20 @@
+.display {
+    margin: 50px 0 10px 0;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid #3a6e9a;
+    display: flex;
+    flex-direction: column;
+}
+.display-text {
+    width: 100%;
+    align-self: flex-end;
+    font-size: 23px;
+    text-align: end;
+}
+.sub-display {
+    width: 100%;
+    text-align: end;
+}

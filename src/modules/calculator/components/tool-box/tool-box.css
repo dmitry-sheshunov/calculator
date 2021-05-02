@@ -1,0 +1,37 @@
+.tool-box-items {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: left;
+    user-select: none;
+}
+
+.tool-box-item {
+    width: 50px;
+    height: 25px;
+    margin: 6px 5px;
+    color: white;
+    background-color: #64b7ff;
+    text-align: center;
+    font-weight: 450;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #3a6e9a;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.tool-box-item-both {
+    height: 53px;
+    top: 72.3%;
+    right: 7.5%;
+    position: absolute;
+    padding-top: 28px;
+    font-size: 24px;
+}
+
+.tool-box-item-last {
+    margin-right: 20px;
+}
